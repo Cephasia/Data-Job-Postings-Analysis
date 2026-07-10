@@ -1,63 +1,197 @@
-# Data-Job-Analysis
-An end-to-end data analytics project exploring global data jobs and hiring trends using Python, Microsoft Excel, and Tableau.
+# 📊 Data Job Postings Analysis
 
-## Project Objectives
+An end-to-end data analytics project that transforms raw and unstructured job posting data into actionable insights. Using Python for data cleaning and exploratory data analysis (EDA), Microsoft Excel for final validation, and Tableau for interactive dashboard development, this project explores hiring trends across the data industry, including the most advertised job roles, top hiring companies, popular job locations, and leading recruitment platforms.
+
+---
+
+# 📌 Business Problem
+
+Thousands of data-related job opportunities are posted across multiple recruitment platforms every day. For job seekers and career planners, it can be difficult to identify hiring trends, understand where opportunities are concentrated, and determine which organizations are actively recruiting.
+
+This project analyzes data job postings to uncover meaningful insights that can help aspiring data professionals better understand the current hiring landscape.
+
+---
+
+# 🎯 Project Objectives
+✔ Clean and prepare an unstructured job postings dataset.
+
+✔ Analyze hiring trends within the data industry.
+
 ✔ Identify the most advertised data job roles.
 
-✔ Identify companies with the highest number of job postings.
+✔ Discover the companies posting the highest number of vacancies.
 
-✔ Discover locations with the greatest demand for data professionals.
+✔ Analyze locations with the greatest demand for data professionals.
 
-✔ Determine which recruitment platforms publish the most data jobs.
+✔ Determine the most active recruitment platforms.
 
-✔ Analyze recent job posting activity.
+✔ Present findings through an interactive Tableau dashboard.
 
-## Business Problem
-Companies post thousands of data-related job openings across different platforms, making it difficult to quickly understand hiring trends, the most in-demand roles, where opportunities are concentrated, and which companies are recruiting the most. This project analyzes job postings to provide clear, data-driven insights into the current data jobs market.
+---
 
-## Project Pipeline
+# 📂 Dataset Information
+
+* **Dataset Name:** Data Jobs Dataset
+* **Source:** Kaggle
+* **Total Records:** 975 Job Postings
+* **Final Columns:** 7
+
+### Dataset Fields
+
+* ID
+* JobTitle
+* Company
+* Job_Location
+* Link_Address
+* Source
+* Date_Posted
+
+---
+
+# 🛠️ Tools & Technologies
+
+* Python
+* Pandas
+* Matplotlib
+* NumPy
+* Microsoft Excel
+* Tableau
+* GitHub
+
+---
+
+# 🔄 Project Workflow
+
+```text
 Raw Dataset (Kaggle)
-        ↓
-[Raw data-job dataset]()
+        │
+        ▼
 Python
 (Data Cleaning)
-        ↓
-[Clean data-job dataset]()
+
+        │
+        ▼
 Microsoft Excel
 (Data Validation & Final Structuring)
-        ↓
-[Validated and finalized data-job dataset]()
+
+        │
+        ▼
 Python
-(EDA)
-        ↓
-[Exploration Data Analysis (Python)]()
+(Exploratory Data Analysis)
+
+        │
+        ▼
 Tableau
 (Interactive Dashboard)
-        ↓
-[Data Job Analysis Dashboard]()
-Business Insights
 
+        │
+        ▼
+Business Insights & Recommendations
+```
 
-## Dashboard Story
-Question 1
-What is happening?
+---
 
-↓
+# 🧹 Data Cleaning
 
-Question 2
-Who is hiring?
+The dataset required extensive preprocessing before analysis.
 
-↓
+Cleaning tasks included:
 
-Question 3
-Which jobs?
+* Removing duplicate records
+* Handling missing values
+* Standardizing column names
+* Correcting inconsistent data entries
+* Reordering columns for better structure
+* Formatting dates
+* Validating the cleaned dataset using Microsoft Excel
 
-↓
+---
 
-Question 4
-Where?
+# 📈 Exploratory Data Analysis
 
-↓
+The exploratory analysis focused on answering key business questions, including:
 
-Question 5
-Which platform?
+* Which companies post the most data-related jobs?
+* What is the most advertised data role?
+* Which locations have the highest demand?
+* Which recruitment platforms publish the most vacancies?
+
+---
+
+# 📊 Dashboard Overview
+
+The Tableau dashboard provides an executive overview of the data jobs market using:
+
+* KPI Cards
+* Jobs by Location
+* Top Hiring Companies
+* Top Job Titles
+* Platform Distribution
+* Interactive dashboard layout
+
+---
+
+# 💡 Key Findings
+
+* **Data Analyst** was the most frequently advertised job role in the dataset.
+* **Meta** recorded the highest number of job postings among all companies.
+* **LinkedIn** was the dominant recruitment platform, accounting for the majority of job postings.
+* The **United States** recorded the highest concentration of available data-related job opportunities.
+* Hiring demand was concentrated among a relatively small number of leading technology companies.
+
+---
+
+# 📌 Business Recommendations
+
+* Aspiring Data Analysts should prioritize skills required for Data Analyst roles, as they represent the largest share of job opportunities.
+* Job seekers should actively monitor LinkedIn due to its high concentration of data-related vacancies.
+* Professionals seeking greater opportunities should focus on locations with consistently high hiring demand.
+* Organizations can benchmark their hiring activity against leading employers within the industry.
+
+---
+
+# 📷 Dashboard Preview
+
+![Data Job Postings Dashboard](dashboard-image.png)
+
+---
+
+# 📁 Repository Structure
+
+```
+data-job-postings-analysis/
+│
+├── data/
+│   ├── raw_data.csv
+│   └── cleaned_data.csv
+│
+├── notebooks/
+│   └── data_jobs_analysis.ipynb
+│
+├── dashboard/
+│   ├── dashboard-image.png
+│   └── Tableau Workbook.twb
+│
+├── README.md
+```
+
+---
+
+# 🚀 Skills Demonstrated
+
+* Data Cleaning
+* Exploratory Data Analysis (EDA)
+* Data Validation
+* Business Intelligence
+* Data Storytelling
+* Dashboard Development
+* Tableau Visualization
+* GitHub Documentation
+
+---
+
+# 👤 Author
+
+**Opeyemi (Ismail) Peter**
+
+Aspiring Data Analyst passionate about transforming raw data into meaningful business insights through analytics, visualization, and storytelling.
