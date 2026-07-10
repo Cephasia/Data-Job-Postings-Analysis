@@ -108,18 +108,17 @@ Cleaning tasks included:
 ---
 
 # 📈 Exploratory Data Analysis
-
 The exploratory analysis focused on answering key business questions, including:
 
-* Which companies post the most data-related jobs?
-* What is the most advertised data role?
-* Which locations have the highest demand?
-* Which recruitment platforms publish the most vacancies?
+* Which companies post the most data-related jobs?.......... *[Top Hiring Companies](top-hiring-company.png)*
+* What is the most advertised data role?.......... *[Top Posted Jobs](top-posted-jobs.png)*
+* Which locations have the highest demand?.......... *[Job by Location](job-by-location.png)*
+* Which recruitment platforms publish the most vacancies?.......... *[Platform Chart](platform-chart.png)*
 
 ---
 
 # 📊 Dashboard Overview
-
+![Dashboard Image](dashboard-image.png)
 The Tableau dashboard provides an executive overview of the data jobs market using:
 
 * KPI Cards
