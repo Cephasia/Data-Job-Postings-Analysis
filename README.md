@@ -31,6 +31,7 @@ This project analyzes data job postings to uncover meaningful insights that can 
 
 # 📂 Dataset Information
 
+![Dataset Head](dataset-head-image.png)
 * **Dataset Name:** Data Jobs Dataset
 * **Source:** Kaggle
 * **Total Records:** 975 Job Postings
@@ -110,15 +111,18 @@ Cleaning tasks included:
 # 📈 Exploratory Data Analysis
 The exploratory analysis focused on answering key business questions, including:
 
-* Which companies post the most data-related jobs?.......... *[Top Hiring Companies](https://github.com/user-attachments/assets/e237525b-9a14-4f2d-ae3a-8a90038d2c61)*
-* What is the most advertised data role?.......... *[Top Posted Jobs](https://github.com/user-attachments/assets/78ba6147-07d5-4557-9f28-8952721ec3a3)*
-* Which locations have the highest demand?.......... *[Job by Location](https://github.com/user-attachments/assets/02bcbd98-b607-4cbf-ad59-f180aa21fef6)*
-* Which recruitment platforms publish the most vacancies?.......... *[Platform Chart](https://github.com/user-attachments/assets/14eae0c7-c469-46d4-9fb4-8734f8668492)*
+* ### Which companies post the most data-related jobs?
+*![Top 10 Hiring Companies](https://github.com/user-attachments/assets/e237525b-9a14-4f2d-ae3a-8a90038d2c61)*
+* ### What is the most advertised data role?
+*![Top 10 Posted Jobs](https://github.com/user-attachments/assets/78ba6147-07d5-4557-9f28-8952721ec3a3)*
+* ### Which locations have the highest demand?
+*![Job by Location](https://github.com/user-attachments/assets/02bcbd98-b607-4cbf-ad59-f180aa21fef6)*
+* ### Which recruitment platforms publish the most vacancies?
+*![Platform Chart](https://github.com/user-attachments/assets/14eae0c7-c469-46d4-9fb4-8734f8668492)*
 
 ---
 
 # 📊 Dashboard Overview
-![Dashboard Image](dashboard-image.png)
 
 The Tableau dashboard provides an executive overview of the data jobs market using:
 
