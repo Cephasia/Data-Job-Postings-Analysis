@@ -119,6 +119,7 @@ The exploratory analysis focused on answering key business questions, including:
 
 # 📊 Dashboard Overview
 ![Dashboard Image](dashboard-image.png)
+
 The Tableau dashboard provides an executive overview of the data jobs market using:
 
 * KPI Cards
