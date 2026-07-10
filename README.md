@@ -110,9 +110,8 @@ Cleaning tasks included:
 # 📈 Exploratory Data Analysis
 The exploratory analysis focused on answering key business questions, including:
 
-* Which companies post the most data-related jobs?.......... *[Top Hiring Companies](<img width="553" height="534" alt="image" src="https://github.com/user-attachments/assets/e237525b-9a14-4f2d-ae3a-8a90038d2c61" />
-)*
-* What is the most advertised data role?.......... *[Top Posted Jobs](top-posted-jobs.png)*
+* Which companies post the most data-related jobs?.......... *[Top Hiring Companies](https://github.com/user-attachments/assets/e237525b-9a14-4f2d-ae3a-8a90038d2c61)*
+* What is the most advertised data role?.......... *[Top Posted Jobs](https://github.com/user-attachments/assets/78ba6147-07d5-4557-9f28-8952721ec3a3)*
 * Which locations have the highest demand?.......... *[Job by Location](job-by-location.png)*
 * Which recruitment platforms publish the most vacancies?.......... *[Platform Chart](platform-chart.png)*
 
